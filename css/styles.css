@@ -191,7 +191,6 @@ width: 270px;
 border: 1px solid #EEEEEE;
 padding: 20px 24px;
 margin-top: -0.3em;
-
 }
 
 
@@ -199,10 +198,20 @@ margin-top: -0.3em;
 
 .header-adress {
   margin-left: auto;
+  display: flex;
 }
 .header-adress a:first-child {
-  margin-right: 50px;
+   margin-right: 30px; 
 }
+.header-adress svg{
+  margin-right: 10px;
+}
+.header-adress .contact{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 /* ==================== FOoter =============== */
 
 .foot .container {
@@ -374,6 +383,7 @@ margin-top: -0.3em;
 .references-list strong {
   line-height: 2;
   font-size: 18px;
+  
 }
 
 /* ========================== SVG ICONS ================== */
