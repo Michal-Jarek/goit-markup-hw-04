@@ -364,6 +364,12 @@ margin-top: -0.3em;
 .team {
   background-color: var(--team-bg-color);
 }
+.order{
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url("../images/studio/background.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 /*                                        Fonts                                           */
 /* H1 */
 .order h1 {
@@ -427,6 +433,14 @@ margin-top: -0.3em;
   font-weight: 500;
   color: var(--main-txt-color);
 }
+.team figcaption a{
+  display: block;
+}
+.team .team-list>li{
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+              0 1px 1px 0 rgba(0, 0, 0, 0.14),
+              0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
 /* References-list*/
 .references-list p {
   line-height: 1.875;
@@ -436,9 +450,7 @@ margin-top: -0.3em;
   line-height: 2;
   font-size: 18px;
 }
-.team figcaption a{
-  display: block;
-}
+
 
 /* ========================== Social Links ================== */
 .social-list{
